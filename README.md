@@ -46,6 +46,9 @@
 ### JSON / Data
 - #### Record unorganized data first
 
+### Code
+- #### Don't put it where it shouldn't
+
 ### Comments
 - #### Add comments for complex logic or parts that are easy to forget
 - #### Explain by logical sections

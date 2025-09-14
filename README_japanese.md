@@ -39,9 +39,10 @@
 ### 定義関係
 | 用途 | 命名規則 | 例 |
 |------|-----------|----|
-| 変数 / 関数 | camelCase | `userData`, `loginCheck` |
+| 変数 / 関数 / ファイル | camelCase | `userData`, `loginCheck` |
 | コンポーネント | PascalCase | `UserCard`, `LoginForm` |
 | 定数 / 環境変数 (.env) | UPPER_SNAKE_CASE | `API_KEY`, `DB_URL` |
+| その他で＿がいる場合 | UPPER_SNAKE_CASE | `README_japanese`, `firebase_data` |
 
 ### JSONなどのデータ
 - #### まとまりのないデータは先に記入

@@ -1,9 +1,9 @@
 ## Table of Contents
-- ### [About the Developer](#about-the-developer)
-- ### [Skills Acquired](#skills-acquired)
-- ### [Skills to Review](#skills-to-review)
-- ### [Skills to Learn](#skills-to-learn)
-- ### [Code Rules](#code-rules)
+- ### [About the Developer](#about-the-developer-1)
+- ### [Skills Acquired](#skills-acquired-1)
+- ### [Skills to Review](#skills-to-review-1)
+- ### [Skills to Learn](#skills-to-learn-1)
+- ### [Code Rules](#code-rules-1)
 
 ## About the Developer
 - ### Primarily learning by creating various projects based on JavaScript

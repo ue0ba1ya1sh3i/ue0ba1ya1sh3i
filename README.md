@@ -57,6 +57,10 @@
 - #### Don't put it where it shouldn't
 - #### Explain by logical sections
 
+### Directory Structure
+- #### Basically, put similar types of files in one directory.
+- #### If it's difficult to understand, move it outside (e.g., change /components/pages to /pages).
+
 ### Code Organization Flow
 #### 1. Start by grouping definitions and settings
 #### 2. Write the main logic in order from top to bottom

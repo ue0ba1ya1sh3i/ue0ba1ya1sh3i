@@ -42,7 +42,7 @@
 | Variables / Functions | camelCase | `userData`, `loginCheck` |
 | Components | PascalCase | `UserCard`, `LoginForm` |
 | Constants / Environment Variables (.env) | UPPER_SNAKE_CASE | `API_KEY`, `DB_URL` |
-| Other cases where _ is required | UPPER_SNAKE_CASE | `README_japanese`, `firebase_data` |
+| When you need to distinguish between the same names with underscores | UPPER_SNAKE_CASE | `README_japanese`, `firebase_data` |
 
 ### JSON / Data
 - #### Record unorganized data first

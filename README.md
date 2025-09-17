@@ -48,10 +48,12 @@
 - #### Record unorganized data first
 
 ### Code
-- #### Don't put it where it shouldn't
+  - #### Use line breaks where necessary
+  - #### Use camelCase as the default for naming definitions such as variable definitions
 
 ### Comments
 - #### Add comments for complex logic or parts that are easy to forget
+- #### Don't put it where it shouldn't
 - #### Explain by logical sections
 
 ### Code Organization Flow

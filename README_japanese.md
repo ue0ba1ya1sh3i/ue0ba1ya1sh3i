@@ -43,7 +43,7 @@
 | コンポーネント / ファイル | PascalCase | `UserCard`, `LoginForm` |
 | 定数 / 環境変数 (.env) | UPPER_SNAKE_CASE(すべて大文字で) | `API_KEY`, `DB_URL` |
 | 同じ名前でアンダースコアで区別しないといけない場合 | UPPER_SNAKE_CASE | `stripe_price`, `firebase_data` |
-| アンダースコアをつけたほうが絶対読みやすい場合 | UPPER_SNAKE_CASE | CodeRule_japanese linux_arch |
+| アンダースコアをつけたほうが絶対読みやすい場合(優先) | UPPER_SNAKE_CASE | CodeRule_japanese linux_arch |
 
 ### JSONなどのデータ
 - #### まとまりのないデータは先に記入

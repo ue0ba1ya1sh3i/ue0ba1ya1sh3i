@@ -43,7 +43,7 @@
 | Components / Files | PascalCase | `UserCard`, `LoginForm` |
 | Constants / Environment Variables (.env) | UPPER_SNAKE_CASE(all capital letters) | `API_KEY`, `DB_URL` |
 | When you need to distinguish between the same names with underscores | UPPER_SNAKE_CASE | `README_japanese`, `firebase_data` |
-| Cases where using underscores is definitely easier to read | UPPER_SNAKE_CASE | CodeRule_japanese linux_arch |
+| Cases where using underscores is definitely easier to read(priority) | UPPER_SNAKE_CASE | CodeRule_japanese linux_arch |
 
 ### JSON / Data
 - #### Record unorganized data first

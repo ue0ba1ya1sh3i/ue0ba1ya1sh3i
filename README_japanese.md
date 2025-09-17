@@ -39,10 +39,11 @@
 ### 定義関係
 | 用途 | 命名規則 | 例 |
 |------|-----------|----|
-| 変数 / 関数 / ファイル | camelCase | `userData`, `loginCheck` |
-| コンポーネント | PascalCase | `UserCard`, `LoginForm` |
-| 定数 / 環境変数 (.env) | UPPER_SNAKE_CASE | `API_KEY`, `DB_URL` |
-| 同じ名前でアンダースコアで区別しないといけない場合 | UPPER_SNAKE_CASE | `README_japanese`, `firebase_data` |
+| 変数 / 関数 | camelCase | `userData`, `loginCheck` |
+| コンポーネント / ファイル | PascalCase | `UserCard`, `LoginForm` |
+| 定数 / 環境変数 (.env) | UPPER_SNAKE_CASE(すべて大文字で) | `API_KEY`, `DB_URL` |
+| 同じ名前でアンダースコアで区別しないといけない場合 | UPPER_SNAKE_CASE | `stripe_price`, `firebase_data` |
+| アンダースコアをつけたほうが絶対読みやすい場合 | UPPER_SNAKE_CASE | CodeRule_japanese linux_arch |
 
 ### JSONなどのデータ
 - #### まとまりのないデータは先に記入

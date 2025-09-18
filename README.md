@@ -1,3 +1,5 @@
+## [日本語はこちらをご覧ください](https://github.com/ue0ba1ya1sh3i/ue0ba1ya1sh3i/blob/main/README_japanese.md)
+
 ## Table of Contents
 - ### [About the Developer](#about-the-developer-1)
 - ### [Skills Acquired](#skills-acquired-1)

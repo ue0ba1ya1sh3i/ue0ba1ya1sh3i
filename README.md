@@ -1,18 +1,18 @@
 ## 日本語版の案内
 ### [日本語はこちらをご覧ください](https://github.com/ue0ba1ya1sh3i/ue0ba1ya1sh3i/blob/main/README_japanese.md)
 
-## Table of Contents
+## Table of contents
 - ### [About the Developer](#about-the-developer-1)
 - ### [Skills Acquired](#skills-acquired-1)
 - ### [Skills to Review](#skills-to-review-1)
 - ### [Skills to Learn](#skills-to-learn-1)
 - ### [Code Rules](#code-rules-1)
 
-## About the Developer
+## About the developer
 - ### Primarily learning by creating various projects based on JavaScript
 - ### Looking for collaborators
 
-## Skills Acquired
+## Skills acquired
 
 | Category | Skills |
 |----------|--------|
@@ -21,14 +21,14 @@
 | Services | GitHub, Firebase, SwichBot, LINE, Google Analytics, Google Search Console |
 | Tools | VSCode, Git, Vite |
 
-## Skills to Review
+## Skills to review
 
 | Category | Skills |
 |----------|--------|
 | Languages | TypeScript, Google Apps Script (GAS) |
 | Frameworks | React, Tailwind CSS |
 
-## Skills to Learn
+## Skills to learn
 
 | Category | Skills |
 |----------|--------|
@@ -37,23 +37,23 @@
 | Services | GCP, AWS, Stripe |
 | Tools / Others | Linux, WSL, Networking, Databases |
 
-## Code Rules
+## Code rules
 
 ### Definitions
-| Purpose | Naming Rules | Examples |
+| Purpose | Naming rules | Examples |
 |------|----------|----|
 | Variables / Functions / Files / Folders | CamelCase | `userData`, `loginCheck` |
 | Components | PascalCase | `UserCard`, `LoginForm` |
 | Constants / Environment Variables (.env) | UPPER_SNAKE_CASE (all uppercase) | `FIREBASE_API`, `DB_URL` |
 | When the same name must be distinguished by an underscore | UPPER_SNAKE_CASE | `stripe_price`, `firebase_data` |
 
-### Basic Rules
+### Basic rules
 - #### Enter ungrouped data first
 - #### Insert a newline between ungrouped and grouped data
 - #### Generally, group similar data together
 - #### If it's better to treat similar items as separate types, group them into separate types.
 
-### Code
+### rule
 - #### Define related definitions first.
 - #### If items are organized and don't have names, use comments to clarify.
 - #### Do not use semicolons.
@@ -78,7 +78,7 @@
 }
 ```
 
-#### JavaScript (Code)
+#### JavaScript(code)
 ```javascript
 
 // Library

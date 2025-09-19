@@ -57,6 +57,7 @@
 - #### Define related definitions first.
 - #### If items are organized and don't have names, use comments to clarify.
 - #### Do not use semicolons.
+- #### No semicolon
 
 ### Comments
 - #### Use spaces between comments.

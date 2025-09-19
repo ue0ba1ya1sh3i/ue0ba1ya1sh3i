@@ -87,7 +87,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom"
 
 ```
 
-#### directory
+#### Directory
 ```tree
 index.html
 index.css

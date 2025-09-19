@@ -78,10 +78,8 @@
   "title": "XXXX",
   "message": "XXXX",
 
-  // 1つにまとめる
   "rewrites": [{ "source": "**", "destination": "/index.html" }],
 
-  // 複数あるのでまとめない
   "headers": [
     {
       "source": "/assets/**",

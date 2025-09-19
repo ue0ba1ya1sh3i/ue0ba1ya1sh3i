@@ -54,13 +54,13 @@
 - #### If it's better to treat similar items as separate types, group them into separate types.
 
 ### Code
-- ### Define related definitions first.
+- #### Define related definitions first.
 - #### If items are organized and don't have names, use comments to clarify.
 - #### Do not use semicolons.
 
 ### Comments
 - #### Use spaces between comments.
-- ### Comments do not have to follow definition rules.
+- #### Comments do not have to follow definition rules.
 
 ### Example
 

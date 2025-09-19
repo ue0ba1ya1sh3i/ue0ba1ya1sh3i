@@ -40,31 +40,62 @@
 ## Code Rules
 
 ### Definitions
-| Purpose | Naming Convention | Example |
-|---------|-----------------|---------|
-| Variables / Functions | camelCase | `userData`, `loginCheck` |
-| Components / Files | PascalCase | `UserCard`, `LoginForm` |
-| Constants / Environment Variables (.env) | UPPER_SNAKE_CASE(all capital letters) | `API_KEY`, `DB_URL` |
-| When you need to distinguish between the same names with underscores | UPPER_SNAKE_CASE | `README_japanese`, `firebase_data` |
-| Cases where using underscores is definitely easier to read(priority) | UPPER_SNAKE_CASE | CodeRule_japanese linux_arch |
+| Purpose | Naming Rules | Examples |
+|------|----------|----|
+| Variables / Functions / Files / Folders | CamelCase | `userData`, `loginCheck` |
+| Components | PascalCase | `UserCard`, `LoginForm` |
+| Constants / Environment Variables (.env) | UPPER_SNAKE_CASE (all uppercase) | `FIREBASE_API`, `DB_URL` |
+| When the same name must be distinguished by an underscore | UPPER_SNAKE_CASE | `stripe_price`, `firebase_data` |
 
-### JSON / Data
-- #### Record unorganized data first
+### Basic Rules
+- #### Enter ungrouped data first
+- #### Insert a newline between ungrouped and grouped data
+- #### Generally, group similar data together
+- #### If it's better to treat similar items as separate types, group them into separate types.
 
 ### Code
-  - #### Use line breaks where necessary
-  - #### Use camelCase as the default for naming definitions such as variable definitions
+- ### Define related definitions first.
+- #### If items are organized and don't have names, use comments to clarify.
+- #### Do not use semicolons.
 
 ### Comments
-- #### Add comments for complex logic or parts that are easy to forget
-- #### Don't put it where it shouldn't
-- #### Explain by logical sections
+- #### Use spaces between comments.
+- ### Comments do not have to follow definition rules.
 
-### Directory Structure
-- #### Basically, put similar types of files in one directory.
-- #### If it's difficult to understand, move it outside (e.g., change /components/pages to /pages).
+### Example
 
-### Code Organization Flow
-#### 1. Start by grouping definitions and settings
-#### 2. Write the main logic in order from top to bottom
-#### 3. Place temporary or experimental code at the top, then refactor
+#### JSON
+```json
+{
+  "title": "XXXX",
+  "message": "XXXX",
+  
+  "user": {
+    "mail": "XXXX@XXXX.XXXX",
+    "name": "XXXX"
+  }
+}
+```
+
+#### JavaScript (Code)
+```javascript
+
+// Library
+import { StrictMode, Suspense } from "react"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
+```
+
+#### directory
+```tree
+index.html
+index.css
+index.js
+font/
+└── index.rtf
+favicon/
+├── index.png
+├── 96.png
+├── 192.png
+└── 512.png
+````

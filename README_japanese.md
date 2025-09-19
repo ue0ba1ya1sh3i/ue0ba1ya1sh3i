@@ -8,6 +8,7 @@
 ## 開発者について
 - ### 主に JavaScript を起点に、いろんなものを作りながら学習中
 - ### 仲間募集中
+- ### SaaSの考え方で開発中
 
 ## 習得したスキル
 
@@ -39,28 +40,60 @@
 ### 定義関係
 | 用途 | 命名規則 | 例 |
 |------|-----------|----|
-| 変数 / 関数 | camelCase | `userData`, `loginCheck` |
-| コンポーネント / ファイル | PascalCase | `UserCard`, `LoginForm` |
-| 定数 / 環境変数 (.env) | UPPER_SNAKE_CASE(すべて大文字で) | `API_KEY`, `DB_URL` |
+| 変数 / 関数 / ファイル / フォルダー | camelCase | `userData`, `loginCheck` |
+| コンポーネント | PascalCase | `UserCard`, `LoginForm` |
+| 定数 / 環境変数(.env) | UPPER_SNAKE_CASE(すべて大文字で) | `FIREBASE_API`, `DB_URL` |
 | 同じ名前でアンダースコアで区別しないといけない場合 | UPPER_SNAKE_CASE | `stripe_price`, `firebase_data` |
-| アンダースコアをつけたほうが絶対読みやすい場合(優先) | UPPER_SNAKE_CASE | CodeRule_japanese linux_arch |
 
-### JSONなどのデータ
+### 基本ルール
 - #### まとまりのないデータは先に記入
+- #### まとまりのないデータとあるデータの間は改行
+- #### 基本は同種類のものは一つのまとまりにまとめる
+- #### 同種類でも別種類として扱うほうが良い場合、別種類にまとめる
 
 ### コード
-- #### 必要なところで改行する
-- #### 変数定義などの命名定義の基本はcamelCase
+- ### 定義関係は最初に定義しておく
+- #### まとまりがあって名前がついていない場合コメントで分かりやすく書く
+- #### セミコロンはつけない
 
 ### コメント
-- #### 複雑な処理や忘れそうな部分にはコメントを付ける  
-- #### まとまりごとに説明を入れる
+- #### コメントの間にはスペースを入れる
+- ### コメントは定義ルールにのっとらなくて良い
 
-### ディレクトリ構成
-- #### 基本は同じ種類のものは一つのディレクトリにまとめる
-- #### 分かりにくければ外に出す(/components/pagesを/pagesに)
+### 例
 
-### コード整理の流れ
-#### 1. 定義や設定系は最初にまとめる
-#### 2. 処理の流れは上から順に書く
-#### 3. 一時的・試行用のコードは上に置き、リファクタリング
+#### JSON
+```json
+{
+  "title": "XXXX",
+  "message": "XXXX",
+
+  "user": {
+    "mail": "XXXX@XXXX.XXXX",
+    "name": "XXXX"
+  }
+}
+```
+
+#### JavaScript(コード)
+```javascript
+
+// Library
+import { StrictMode, Suspense } from "react"
+import { BrowserRouter, Routes, Route } from "react-router-dom"
+
+```
+
+#### ディレクトリ
+```tree
+index.html
+index.css
+index.js
+font/
+└── index.rtf
+favicon/
+├── index.png
+├── 96.png
+├── 192.png
+└── 512.png
+```

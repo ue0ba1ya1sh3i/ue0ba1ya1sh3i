@@ -57,6 +57,7 @@
 ### import / export
 - `import`の種類をコメントで書く
   - `// Library`なが例
+  - ただしそれはコンポーネントなどもインポートできるReactだけコメントできる
 - `import` / `export` では名前付きを使用する  
   - `import { XXXX } from "XXXX"`、`export { XXXX, YYYY }`などが例
 - 定義関係はファイルの先頭にまとめておく

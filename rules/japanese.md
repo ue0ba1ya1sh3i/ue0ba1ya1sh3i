@@ -3,7 +3,7 @@
 - [コード定義](#コード定義)
 - [コード](#コード)
   - [命名](#命名)
-  - [React / TypeScript系](#React-TypeScript系)
+  - [React / TypeScript系](#react--typescript系)
     - [型](#型)
     - [コンポーネント / hooks](#コンポーネント--hooks)
   - [非同期処理](#非同期処理)

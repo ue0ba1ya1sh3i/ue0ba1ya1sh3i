@@ -1,30 +1,10 @@
 ## 目次
-- [開発者について](#開発者について)
-- [習得したスキル](#習得--習得中スキル)
-- [習得したいスキル](#習得したいスキル)
+- [ue0ba1ya1sh3i](ue0ba1ya1sh3i)
 - [コードルール](#コードルール)
 
-## 開発者について
-- 主にJavaScript系を学習中
-- 開発チーム募集中
-
-## 習得 / 習得中スキル
-| カテゴリ | 技術 |
-|-|-|
-| 言語 | JavaScript, HTML, CSS, Markdown, Google Apps Script, TypeScript |
-| フレームワーク | Node.js, Express, React, Tailwind CSS |
-| サービス | GitHub, Firebase, SwichBot API, LINE Bot, Google Analytics, Google Search Console |
-| ツール | VSCode, Git, Vite, Figma, Windows |
-| 知識 | 基本的なCLI操作 |
-
-## 習得したいスキル
-| カテゴリ | 技術 |
-|-|-|
-| 言語 | Dart, C#, C++, VBA, Python |
-| フレームワーク | Next.js |
-| サービス | GCP, AWS |
-| ツール | Linux, WSL |
-| 知識 | ネットワーク, 応用的なCLI操作 |
+## ue0ba1ya1sh3i
+- 主にJavaScript系で開発してます
+- [習得スキル](https://www.notion.so/2891ce776d158062beb7ecd2e98ef4c8?v=28b1ce776d1580f28014000c71cb3a03&source=copy_link)
 
 ## コードルール
 [こちらをご覧ください](./rules/japanese.md)

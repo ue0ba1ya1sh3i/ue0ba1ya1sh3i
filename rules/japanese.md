@@ -1,53 +1,25 @@
-## 目次
-- [このルールについて](#このルールについて)
-- [基本](#基本)
-- [変数の命名規則](#変数の命名規則)
-- [SaaSとわかりやすさの判別方法](#SaaSとわかりやすさの判別方法)
-- [コメント](#コメント)
-- [エラーハンドリング](#エラーハンドリング)
-- [GitHub Issue](#GitHub-Issues)
-- [Markdown](./markdown.md)
-- [JavaScript](./javascript/japanese.md)
-  - [TypeScript](./javascript/typescript/japanese.md)
-  - [Node.js](./javascript/node.js/japanese.md)
-    - [React](./javascript/node.js/react/japanese.md)
+## 基本ルール
+- 推奨される文法で記述する
+- セミコロンはつけない
+- 関連するコードには改行を入れて、視覚的にまとめる
+- 不要なスペースやタブスペースを開けない
+- 起こりえるすべてのエラーをハンドリングしてそれ以外はしない
 
-## このルールについて
-- ネストされてる目次はネストしてる目次のルールも適用される
-
-## 基本
-- わかりやすさとSaaSの両立する
-- 文法は推奨される書き方で書く
-  - if文などJavaScriptではif (条件式) {}とスペースを入れて書く
-
-## コード
-- ファイルの最後は改行する
-- 同種類のコードは改行してまとめる
-
-## 変数の命名規則
+## 命名規則
 | 種類 | 命名規則 | 例 |
 | - | - | - |
-| 変数 | camelCase | `googleLogin` |
+| 基本の変数 / 関数 | camelCase | `googleLogin`, `getUserData` |
 | プロジェクト名 | kebab-case | `react-template` |
-| ファイル / フォルダー | snake_case | `public`, `node_modules` |
-| 定数 / 環境変数 | UPPER_SNAKE_CASE | `FIREBASE_API_KEY` |
+| ファイル / フォルダー | snake_case | `user_profile`, `api_client` |
+| 環境変数 | UPPER_SNAKE_CASE | `FIREBASE_API_KEY`, `MAX_CONNECTIONS` |
+| クラス / コンポーネント | PascalCase | `UserProfile`, `ApplicationLogger` |
 
-## SaaSとわかりやすさの判別方法
-- 変数は重複してなければSaaSを優先して重複してればアンダースコアでどんな種類かを記入する
-  - 変数事態に関してまとまりが多ければJSONオブジェクトにして分かりやすくする
+## わかりやすさとSaaSを両立
+- 変数名は、わかりやすさを重視して最低限の情報は示す
+  - 例: `id`ではなく`userID`にするなど
+- 関連する変数が多いなら、JSONオブジェクトにまとめて構造化する
+  - 例: `userId`や`userData`、`userEmail`など`user`に関する変数が多ければ`user`というJSONオブジェクトを作って管理する
 
 ## コメント
-- コメント開始時は最初にスペースを開ける
-- まとまりのあるコードやデータにはコメントをつけてわかりやすくする
-
-## エラーハンドリング
-- 起こりえるすべてのものにエラーハンドリングを追加する
-- 例
-  - ユーザーの入力値や環境変数が見つからないとき
-  - データのアクセス拒否や見つからないとき
-
- ## GitHub Issues
- - 詳細は必要であれば書く
- - タグをつける
- - なるべくシンプルにする
- - Sub Issuesを作成してわかりやすくする
+  - コメントの間にはスペースを開けて見やすくする
+  - やるべきことは`TODO: `、修正は`FIX: `をコメントの最初に着ける

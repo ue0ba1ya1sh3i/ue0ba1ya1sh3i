@@ -1,6 +1,11 @@
 ## 目次
 - [ue0ba1ya1sh3i](#ue0ba1ya1sh3i)
-- [コードルール](./rules/japanese.md)
+- [共通ルール](./rules/japanese.md)
+  - [Markdown](./rules/markdown/japanese.md)
+  - [JavaScript](./rules/javascript/japanese.md)
+    - [TypeScript](./rules/javascript/typescript/japanese.md)
+    - [Node.js](./rules/javascript/node.js/japanese.md)
+      - [React](./rules/javascript/node.js/react/japanese.md)
 
 ## ue0ba1ya1sh3i
 - 主にJavaScript系で開発してます

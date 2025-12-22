@@ -9,7 +9,7 @@
 
 ## Code rules
 - 以下のリンクは自身のコードルールを明記したものになっています
-- [Links](./rules/japanese.md)
+- [Links](./code.md)
 
 ## Contact
 - 基本的にSlackからお願いします

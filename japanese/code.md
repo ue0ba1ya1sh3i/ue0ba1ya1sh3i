@@ -11,13 +11,13 @@
 - 正式名所が長ければ省略する
 
 ## コード
-- export defaultはそのまま記述
+- `export default`はそのまま記述
 - JSONオブジェクトは最後に,をつけずに
 - コロンはつけない
-- public/files/に静的ファイルを置く
+- `public/files/`に静的ファイルを置く
 - パス指定が長ければエイリアスを使う
 
 ## その他
-- .envなどの定数はUPPER_UNDERSCORESで記述
-- プロジェクト名はkebab-case
-- ファイル・フォルダ名はsnake_case
+- `.env`などの定数は`UPPER_UNDERSCORES`で記述
+- プロジェクト名は`kebab-case`
+- ファイル・フォルダ名は`snake_case`

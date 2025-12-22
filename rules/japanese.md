@@ -14,7 +14,8 @@
 - export defaultはそのまま記述
 - JSONオブジェクトは最後に,をつけずに
 - コロンはつけない
-- 
+- public/files/に静的ファイルを置く
+- パス指定が長ければエイリアスを使う
 
 ## その他
 - .envなどの定数はUPPER_UNDERSCORESで記述
